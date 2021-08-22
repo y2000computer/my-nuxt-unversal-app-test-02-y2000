@@ -2,7 +2,7 @@ let development = process.env.NODE_ENV !== 'production'
 
 export default {
   env: {
-    apiURL: development ? 'http://local-cms-uat.y2kcomputer.com/erp/en-US' : 'https://cms-uat.y2kcomputer.com/erp/en-US'
+    apiURL: development ? 'http://local-ims-uat.y2kcomputer.com/article/en-US' : 'https://ims-uat.y2kcomputer.com/article/en-US'
   },
   
   // Global page headers: https://go.nuxtjs.dev/config-head
